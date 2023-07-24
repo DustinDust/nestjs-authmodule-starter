@@ -1,0 +1,24 @@
+{
+  "willAuthenticate": true,
+  "mfaEnforce": true,
+  "mfaType": "otp",
+  "webAuthnConfig": {
+    "rpName": "",
+    "rpID": "",
+    "origin": ""
+  },
+  "githubProviderOptions": {
+    "active": true,
+    "clientSecret": "",
+    "clientID": "",
+    "callbackURL": "",
+    "scope": ""
+  },
+  "googleProviderOptions": {
+    "active": true,
+    "clientSecret": "",
+    "clientID": "",
+    "callbackURL": "",
+    "scope": ""
+  }
+}
