@@ -29,33 +29,26 @@
 ## Installation
 
 ```bash
-$ npm install
+$ yarn
+```
+
+## Build the auth library
+
+```bash
+$ yarn nest build auth
+```
+
+## Generate new project in the monorepo
+
+```bash
+$ yarn nest generate app new-projet
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ yarn nest start project-name
 ```
 
 ## Support
