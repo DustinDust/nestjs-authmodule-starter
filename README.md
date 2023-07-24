@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript monorepo starter repository with built-in auth-module.
 
 ## Installation
 
@@ -46,8 +46,9 @@ $ yarn nest generate app new-projet
 
 ## Running the app
 
+You'll need the initial `.env` as well as the initial config file for the auth module of which name you can config when import `AuthModule` from `@namdp/auth`. Both example file could be found in the repository.
+
 ```bash
-# development
 $ yarn nest start project-name
 ```
 
