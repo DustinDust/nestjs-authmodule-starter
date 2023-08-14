@@ -76,6 +76,7 @@ export class TwoFactorAuthStrategy extends PassportStrategy(Strategy, '2fa') {
         }
       }
     }
-    return;
+    console.log(user);
+    return user;
   }
 }
